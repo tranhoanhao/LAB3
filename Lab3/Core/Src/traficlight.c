@@ -7,7 +7,7 @@
 
 #include "traficlight.h"
 
-void traffic_light(status){
+void traffic_light(int status){
 	switch(status){
 		case INIT:
 			HAL_GPIO_WritePin(RED0_GPIO_Port, RED0_Pin,RESET);

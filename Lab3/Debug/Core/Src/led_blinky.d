@@ -1,5 +1,5 @@
-Core/Src/global.o: ../Core/Src/global.c ../Core/Inc/global.h \
- ../Core/Inc/timer.h ../Core/Inc/main.h \
+Core/Src/led_blinky.o: ../Core/Src/led_blinky.c ../Core/Inc/led_blinky.h \
+ ../Core/Inc/global.h ../Core/Inc/timer.h ../Core/Inc/main.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
  ../Core/Inc/stm32f1xx_hal_conf.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h \
@@ -24,9 +24,10 @@ Core/Src/global.o: ../Core/Src/global.c ../Core/Inc/global.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h \
- ../Core/Inc/button.h ../Core/Inc/global.h ../Core/Inc/traficlight.h \
- ../Core/Inc/led7seg.h ../Core/Inc/fms.h ../Core/Inc/fms_manual.h \
- ../Core/Inc/led_blinky.h
+ ../Core/Inc/button.h ../Core/Inc/traficlight.h ../Core/Inc/led7seg.h \
+ ../Core/Inc/fms.h ../Core/Inc/fms_manual.h ../Core/Inc/led_blinky.h
+
+../Core/Inc/led_blinky.h:
 
 ../Core/Inc/global.h:
 
@@ -83,8 +84,6 @@ Core/Src/global.o: ../Core/Src/global.c ../Core/Inc/global.h \
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:
 
 ../Core/Inc/button.h:
-
-../Core/Inc/global.h:
 
 ../Core/Inc/traficlight.h:
 

@@ -78,6 +78,10 @@ void Error_Handler(void);
 #define YELLOW0_GPIO_Port GPIOB
 #define GREEN0_Pin GPIO_PIN_2
 #define GREEN0_GPIO_Port GPIOB
+#define BUTTON2_Pin GPIO_PIN_11
+#define BUTTON2_GPIO_Port GPIOA
+#define BUTTON1_Pin GPIO_PIN_12
+#define BUTTON1_GPIO_Port GPIOA
 #define BUTTON_Pin GPIO_PIN_13
 #define BUTTON_GPIO_Port GPIOA
 #define RED1_Pin GPIO_PIN_3
